@@ -10,6 +10,9 @@ namespace dxvk {
     /// Allow allocating more memory from
     /// a heap than the device supports.
     bool allowMemoryOvercommit;
+
+    /// Use state cache
+    bool useStateCache;
   };
 
 }
