@@ -4,7 +4,7 @@ namespace dxvk {
 
   DxvkOptions::DxvkOptions(const Config& config) {
     allowMemoryOvercommit = config.getOption<bool>("dxvk.allowMemoryOvercommit", false);
-    useStateCache         = config.getOption<bool>("dxvk.useStateCache",         false);
+    useStateCache         = config.getOption<bool>("dxvk.useStateCache",         true);
   }
 
 }
